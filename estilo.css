@@ -1,0 +1,104 @@
+html,
+:root {
+  height: 100%;
+}
+input {
+    box-sizing: border-box;
+    outline: none;
+  }
+  body {
+    background-color: hsl(209, 70%, 71%);
+    background-size: 110%;
+    margin: 0;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #formulario {
+    margin-top: 7px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px 10px;
+  }
+  #formulario legend {
+    color: #1808ad;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px 0;
+
+  }
+  .input-group {
+    margin: 6.5px 0;
+  }
+  .input-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #393939;
+    cursor: pointer;
+  }
+  .input-group input:not([type="checkbox"]) {
+    background: #dedddd;
+    border: 2px solid #cccccc;
+    border-radius: 1px;
+    padding: 8px 8px;
+    display: block;
+    width: 98%;
+  }
+  #cpf{
+    width: 110%;
+  }
+
+#celular{
+  width: 110%;
+  margin-left: -10px;
+}
+
+
+  .input-group input:focus {
+    border-color: blue;
+  }
+  .input-group input::placeholder {
+    color: #686868;
+    font-weight: 300;
+  }
+  .colunas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .botao {
+    background: #b0b5f7;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer; 
+    margin-top: 15px;
+  }
+  .botao:hover {
+    background: #1076eb;
+  }
+ 
+  h4 {
+    text-align: center;
+  }
+
+
+  
+  
+  
+
+  
